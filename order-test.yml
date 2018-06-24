@@ -11,6 +11,11 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8
   jpa:
     show-sql: true
+  rabbitmq:
+    host: 139.224.134.209
+    port: 5672
+    username: guest
+    password: guest  
 env: test1
 girl:
   name: lili
