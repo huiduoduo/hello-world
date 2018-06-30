@@ -16,3 +16,13 @@ spring:
   redis:
     host: localhost
     port: 6379
+zuul:
+  routes:
+#    product: /myProduct/**
+#  ignored-patterns:
+##    - /myProduct/product/listForOrder
+##    - /product/product/listForOrder
+#    - /**/product/listForOrder
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
