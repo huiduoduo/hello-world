@@ -19,7 +19,7 @@ spring:
   redis:
     host: localhost
     port: 6379
-env: test3
+env: test4
 cat:
   name: lili
-  age: 20
+  age: 200
