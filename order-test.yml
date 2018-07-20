@@ -22,4 +22,4 @@ spring:
 env: test1
 cat:
   name: lili
-  age: 28
+  age: 20
