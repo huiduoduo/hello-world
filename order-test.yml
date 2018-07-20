@@ -21,5 +21,5 @@ spring:
     port: 6379
 env: test41
 cat:
-  name: lililili
-  age: 20000
+  name: lili
+  age: 20
